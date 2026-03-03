@@ -6,37 +6,60 @@
     <title>Register</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-green-100 flex items-center justify-center h-screen">
+
+<body class="min-h-screen bg-gradient-to-br from-blue-400 via-white to-blue-500 flex items-center justify-center p-10">
+  <div class=""></div>
     <div class="flex gap-8">
 
-  <div class="bg-white p-6 rounded shadow w-80">
+  <div class="bg-gray-100 shadow-lg rounded-2xl p-8 w-full max-w-md">
     <h1 class="text-2xl font-bold text-center mb-4">Signup</h1>
     <form>
         Full Name<span class="text-red-500">*</span>
         <input type="text" placeholder="Enter your full name" 
-        required class="w-full border border-gray-300 rounded px-3 py-2 mb-4 focus:outline-none focus:ring-2 focus:ring-blue-500">
+        required class="w-full border border-gray-300 rounded-2xl px-3 py-2 mb-4 focus:outline-none focus:ring-2 focus:ring-blue-500">
         
         Email Address<span class="text-red-500">*</span>
         <input type="email" placeholder="Enter your email address" 
-        required class="w-full border border-gray-300 rounded px-3 py-2 mb-4 focus:outline-none focus:ring-2 focus:ring-blue-500">
+        required class="w-full border border-gray-300 rounded-2xl px-3 py-2 mb-4 focus:outline-none focus:ring-2 focus:ring-blue-500">
         
         Password<span class="text-red-500">*</span>
         <input type="password" placeholder="Enter your password" 
-        required class="w-full border border-gray-300 rounded px-3 py-2 mb-4 focus:outline-none focus:ring-2 focus:ring-blue-500">
+        required class="w-full border border-gray-300 rounded-2xl px-3 py-2 mb-4 focus:outline-none focus:ring-2 focus:ring-blue-500">
         
         Confirm Password<span class="text-red-500">*</span>
         <input type="password" placeholder="Confirm password" 
-        required class="w-full border border-gray-300 rounded px-3 py-2 mb-4 focus:outline-none focus:ring-2 focus:ring-blue-500">
+        required class="w-full border border-gray-300 rounded-2xl px-3 py-2 mb-4 focus:outline-none focus:ring-2 focus:ring-blue-500">
         
         <button type="submit" 
-        class="w-full bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 cursor-pointer">Signup</button>
+        class="w-full bg-blue-500 text-white px-4 py-2 rounded-2xl hover:bg-blue-700 cursor-pointer">Signup</button>
         
         <p>Already have an account, <a href="index.html" 
-        class="text-blue-500 hover:underline">Login</p>
+        class="text-blue-800 hover:underline">Login</p>
+
+<div class="flex items-center my-4">
+  <hr class="flex-grow border-gray-300">
+  <span class="mx-2 text-gray-500 text-sm">OR</span>
+  <hr class="flex-grow border-gray-300">
+</div>
+
+<div class="flex gap-3">
+  
+  <button class="w-1/2 flex items-center justify-center gap-2 border border-gray-300 rounded-2xl py-2 hover:bg-gray-100 transition">
+    <img src="https://www.svgrepo.com/show/475656/google-color.svg" class="w-5 h-5">
+    <span class="text-sm font-medium text-gray-700">Google</span>
+  </button>
+
+  <button class="w-1/2 flex items-center justify-center gap-2 border border-gray-300 rounded-2xl py-2 hover:bg-gray-100 transition">
+    <img src="https://www.svgrepo.com/show/512317/github-142.svg" class="w-5 h-5">
+    <span class="text-sm font-medium text-gray-700">GitHub</span>
+  </button>
+
+</div>
+
     </form>
 </div>
     
 </body>
-
 </html>
+
 
